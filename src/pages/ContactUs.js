@@ -34,7 +34,7 @@ const [callsuccess, setcallsuccess] = useState(true)
     <div className="App">
       <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2} style={{    height: "100vh",display:"flex",justifyContent: 'center',alignItems:"center",textAlign:"center"}}>
-      <Grid item xs={12}  sm={8} style={{   
+      <Grid item xs={12}  sm={7} style={{   
     borderRadius: "20px",
     margin: "10px 0px",display: "flex",
     flexDirection:"column",
@@ -42,7 +42,7 @@ const [callsuccess, setcallsuccess] = useState(true)
     alignItems: "center"}}>
 <Typography variant="h4"  style={{   
           margin: "auto",
-          marginBlock: "40px",
+          marginBlock: "20px",
           
       }} component="h4">
 Contact us
@@ -143,7 +143,7 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
       aria-label="minimum height"
       minRows={6}
       placeholder="Write your message here...      "
-      style={{ width: "55%" }}
+      style={{ width: "420px" }}
     />
      
      </div>
@@ -156,19 +156,7 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
 
         </div>
         
-           <div style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center"}}>
-           <Divider style={{width:"30%",borderColor:"black"}} />
-           <Typography style={{marginInline:"10px"}}>or</Typography>
-           <Divider  style={{width:"30%",borderColor:"black"}}/>
-
-           </div>
-           <Typography variant="h6"  style={{   
-          margin: "auto",
-          marginBottom: "40px",
-          color:"#5b5a5a"
-      }} component="h5">Go back to<span style={{fontWeight:"bold"}}>Login</span>  </Typography>
+        
             </div>
        
         </Grid>
