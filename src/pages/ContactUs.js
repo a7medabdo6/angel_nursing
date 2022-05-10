@@ -42,11 +42,12 @@ const [callsuccess, setcallsuccess] = useState(true)
     flexDirection:"column",
     justifyContent: "center",
     alignItems: "center"}}>
-<Typography variant="h4"  style={{   
+<Typography variant="h5"  style={{   
           margin: "auto",
           marginBlock: "20px",
-          
-      }} component="h4">
+          fontWeight:"600",
+          fontSize:"2rem"
+      }} component="h5">
 Contact us
 
 </Typography>
@@ -90,11 +91,12 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
         <Grid item xs={12}  sm={6}>
           <div style={{width:"100%",margin: 'auto',}}>
     
-            <Typography variant="h4"  style={{   
+            <Typography variant="h5"  style={{   
           margin: "auto",
           marginBottom: "20px",
-          color:"#5b5a5a"
-      }} component="h4">Send us a message !
+          fontWeight:"600",
+          fontSize:"2rem"
+      }} component="h5">Send us a message !
 
       
       
@@ -114,22 +116,22 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
           label="First Name"
           type="text"
           autoComplete="current-password"
-          style={{border:"1px solid #0C7DDF",borderRadius:"8px"}}
+          style={{border:"1px solid #001BBA",borderRadius:"8px"}}
           InputLabelProps={{
             style: {
               
-              color: '#0C7DDF'
+              color: '#001BBA'
             } }} 
         />
       <TextField
           id="outlined-password-input"
           label="Last Name"
           type="text"
-          style={{border:"1px solid #0C7DDF",borderRadius:"8px"}}
+          style={{border:"1px solid #001BBA",borderRadius:"8px"}}
           InputLabelProps={{
             style: {
               
-              color: '#0C7DDF'
+              color: '#001BBA'
             } }} 
           autoComplete="current-password"
         />
@@ -142,11 +144,11 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
          label="Phone Number"
          type="text"
          autoComplete="current-password"
-         style={{border:"1px solid #0C7DDF",borderRadius:"8px"}}
+         style={{border:"1px solid #001BBA",borderRadius:"8px"}}
           InputLabelProps={{
             style: {
               
-              color: '#0C7DDF'
+              color: '#001BBA'
             } }} 
        />
      <TextField
@@ -154,11 +156,11 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
          label="Email Address"
          type="text"
          autoComplete="current-password"
-         style={{border:"1px solid #0C7DDF",borderRadius:"8px"}}
+         style={{border:"1px solid #001BBA",borderRadius:"8px"}}
           InputLabelProps={{
             style: {
               
-              color: '#0C7DDF'
+              color: '#001BBA'
             } }} 
        />
      
@@ -169,13 +171,13 @@ Still got some questions left with no answer ? Don’t hesitate to reach us thro
       aria-label="minimum height"
       minRows={6}
       placeholder="Write your message here...      "
-      style={{border:"1px solid #0C7DDF",borderRadius:"8px",width:matches?"90%":"420px"}}
+      style={{border:"1px solid #001BBA",borderRadius:"8px",width:matches?"90%":"445px",padding:"10px 12px",color: '#001BBA'}}
           InputLabelProps={{
             style: {
               
-              color: '#0C7DDF'
+              color: 'primary'
             } }} 
-            color="primary"
+            color="#001BBA"
     />
      
      </div>

@@ -8,6 +8,7 @@ import TextField from '@mui/material/TextField';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 
 import  withStyles  from "@mui/styles/withStyles";
+import { Typography } from '@mui/material';
 
 
 export default function InputWithIcon({text,icon,type}) {
@@ -32,7 +33,7 @@ export default function InputWithIcon({text,icon,type}) {
     disableUnderline: true, // <== added this
   }} borderRadius={25} id={type ?"outlined-basic":"filled-basic"} style={{width:"100%",backgroundColor:type?"white":"transparent",}} label={<div style={{display: "flex",borderRadius:type?"25px":"10px",
     justifyContent: "center",
-    alignItems: "center",border:"unset"}}>{icon} {text}</div>} variant={type ?"outlined":"filled"} />
+    alignItems: "flex-end",border:"unset"}}>{icon} <Typography style={{lineHeight:"1.3"}}>{text}</Typography></div>} variant={type ?"outlined":"filled"} />
 
       </Box>
     </Box>

@@ -90,7 +90,7 @@ const [callsuccess, setcallsuccess] = useState(false)
       {callsuccess ? <Typography style={{display: "flex",
     justifyContent: "center",
     alignItems: "center",color:"green"}}><CheckCircleOutlineIcon/> <Typography>Check your mails ! An email with a link has been sent to you to reset your password.
-</Typography></Typography> :<Input icon={<PersonIcon sx={{ color: 'action.active', mr: 1, my: 0.5 }} />} text="Enter Your Email" />}
+</Typography></Typography> :<Input icon={<PersonIcon sx={{ color: 'action.active', mr: 1,  }} />} text="Enter Your Email" />}
      
 
         
@@ -110,7 +110,7 @@ const [callsuccess, setcallsuccess] = useState(false)
           margin: "auto",
           marginBottom: "40px",
           color:"#5b5a5a"
-      }} component="h5">Go back to<span style={{fontWeight:"bold"}}>Login</span>  </Typography>
+      }} component="h5">Go back to<span style={{fontWeight:"bold",marginInline:"8px"}}>Login</span>  </Typography>
       </Link>
             </div>
        

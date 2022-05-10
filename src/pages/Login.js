@@ -198,8 +198,8 @@ Fr
       }} component="h5">Welcome to Mynursingangel</Typography>
             <div>
 
-            <Input icon={<PersonIcon sx={{ color: 'action.active', mr: 1, my: 0.5 }} />} text=" Email" />
-        <Input icon={<LockIcon sx={{ color: 'action.active', mr: 1, my: 0.5 }} />} text=" Password" />
+            <Input icon={<PersonIcon style={{marginBlock: '0px',height:"24px"}} sx={{ color: 'action.active', mr: 1}} />} text=" Email" />
+        <Input icon={<LockIcon style={{marginBlock: '0px',height:"24px"}} sx={{ color: 'action.active', mr: 1 }} />} text=" Password" />
             </div> 
         <Link to="/reset-password">
         <Typography style={{    display: "flex",

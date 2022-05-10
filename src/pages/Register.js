@@ -271,7 +271,7 @@ Fr
               <Input
                   icon={
                     <PersonIcon
-                      sx={{ color: "action.active", mr: 1, my: 0.5 }}
+                      sx={{ color: "action.active", mr: 1,  }}
                     />
                   }
                   text=" First Name"
@@ -279,7 +279,7 @@ Fr
                 <Input
                   icon={
                     <PersonIcon
-                      sx={{ color: "action.active", mr: 1, my: 0.5 }}
+                      sx={{ color: "action.active", mr: 1,  }}
                     />
                   }
                   text=" Last Name"
@@ -287,14 +287,14 @@ Fr
                 <Input
                   icon={
                     <MailOutlineIcon
-                      sx={{ color: "action.active", mr: 1, my: 0.5 }}
+                      sx={{ color: "action.active", mr: 1,  }}
                     />
                   }
                   text=" Email"
                 />
                 <Input
                   icon={
-                    <LockIcon sx={{ color: "action.active", mr: 1, my: 0.5 }} />
+                    <LockIcon sx={{ color: "action.active", mr: 1,  }} />
                   }
                   text=" Password"
                 />
